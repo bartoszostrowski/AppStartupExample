@@ -12,8 +12,6 @@ class WorkManagerInit : Initializer<WorkManager> {
     override fun create(context: Context): WorkManager {
         Log.d(TAG, "create()")
 
-        val configuration = Configuration.Builder().build()
-        WorkManager.initialize(context, configuration)
         return WorkManager.getInstance(context)
     }
 
