@@ -23,7 +23,7 @@
             android:exported="false"
             tools:node="merge">
             <!-- This entry makes ExampleLoggerInitializer discoverable. -->
-            <meta-data  android:name="pl.bartoszostrowski.appstartupexample.ExampleLoggerInit"
+            <meta-data  android:name="pl.bartoszostrowski.appstartupexample.CyclicInit"
                 android:value="androidx.startup" />
         </provider>
     </application>
